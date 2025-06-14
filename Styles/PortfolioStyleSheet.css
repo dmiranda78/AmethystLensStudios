@@ -28,7 +28,7 @@ h3 {
 }
 
 nav {
-    background-color: #9966CC;
+    background-color: #b29dc7;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -56,10 +56,17 @@ nav ul {
 }
 
 header {
-    top: 85px;
+    top: 79px;
+    position: relative;
     margin-bottom: 150px;
     position: relative;
     line-height: 150%;
+    background-image: url('../Images/b29dc7.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position-y: -175px;
+
+
 }
 
 img {
@@ -86,4 +93,9 @@ figcaption {
 
 .bio-list {
     line-height: .75;
+}
+
+.intro-img {
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
 }
