@@ -130,8 +130,9 @@ figcaption {
 
 .project-amethyst {
     background-color: #b29dc7;
+    background-size: cover;
     padding: 20px 5px;
-    margin: 70px;
+    margin: 70px 0;
 }
 
 footer {
