@@ -38,6 +38,10 @@ nav {
     width: 100%;
 }
 
+a {
+    color: black;
+}
+
 p {
     line-height: 150%;
 }
@@ -45,6 +49,15 @@ nav ul li {
     display: inline-block;
     margin: 0 15px;
     padding: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black
+}
+
+nav li a:hover {
+    text-decoration: underline;
 }
 
 nav ul {
@@ -98,8 +111,12 @@ figcaption {
     font-size: 10px;
 }
 
+.right-alignment {
+    text-align: right;
+}
+
 .bio-list {
-    line-height: .75;
+    line-height: 10px;
 }
 
 .intro-img {
@@ -114,4 +131,11 @@ figcaption {
 .project-amethyst {
     background-color: #b29dc7;
     padding: 20px 5px;
+    margin: 70px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 100px;
 }
