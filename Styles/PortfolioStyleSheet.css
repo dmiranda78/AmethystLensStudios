@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-family: "Lucida Calligraphy", serif;
-    font-size: 50px;
+    font-size: 35px;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
@@ -114,13 +114,28 @@ ul li {
     margin: 10px 0;
 }
 
-.figcaption {
+figcaption {
     text-align: right;
+    font-size: 10px;
+    color: black;
+}
+.main-image {
+    text-align: left;
     font-size: 10px;
     color: #ffbd99;
 }
 
 .right-alignment {
+    text-align: right;
+    color:  #ffbd99;
+}
+
+.project-amethystleft {
+    text-align: right;
+    color: black;
+}
+
+.left-alignment {
     text-align: left;
     color: black;
 }
@@ -145,6 +160,11 @@ ul li {
     padding: 20px 10px;
     margin: 70px 0;
     color: black;
+}
+
+.event-image {
+     width:450px;
+     height: auto;
 }
 
 .Experience-list {
