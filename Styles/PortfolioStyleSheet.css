@@ -3,8 +3,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    color: white;
-    background-color: black;
+    color: #ffbd99;
+    background-color: #221b27;
 }
 
 h1 {
@@ -12,21 +12,22 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 75px;
+    text-shadow: 1px 2px 30px  rgba(0, 0, 0, 0.3);
     padding: 0;
     line-height: 1;
     color: black;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Lucida Calligraphy", serif;
     font-size: 50px;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     text-align: center;
-    text-decoration: underline overline;
+    text-shadow: 1px 2px 30px  rgba(0, 0, 0, 0.3);
     padding: 0;
-    color:black;
+    color: black;
 }
 
 h3 {
@@ -113,18 +114,20 @@ ul li {
     margin: 10px 0;
 }
 
-figcaption {
+.figcaption {
+    text-align: right;
     font-size: 10px;
-    color: black;
+    color: #ffbd99;
 }
 
 .right-alignment {
-    text-align: right;
-    color: white;
+    text-align: left;
+    color: black;
 }
 
 .bio-list {
     line-height: 10px;
+    margin-top: -20px;
 }
 
 .intro-img {
@@ -141,11 +144,13 @@ figcaption {
     background-size: cover;
     padding: 20px 10px;
     margin: 70px 0;
+    color: black;
 }
 
 .Experience-list {
     text-align: center;
     color: black;
+
 }
 
 footer {
