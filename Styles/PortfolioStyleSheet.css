@@ -82,14 +82,11 @@ nav ul {
 }
 
 header {
-    top: 79px;
-    position: relative;
-    margin-bottom: 150px;
-    position: relative;
+    padding: 3% 0 0 0;
     line-height: 150%;
     background-image: url('../Images/b29dc7.png');
     background-repeat: repeat-x;
-    background-size: contain;
+    background-size:cover;
     background-position-y: -185px;
 
 
@@ -125,6 +122,10 @@ figcaption {
     color: #ffbd99;
 }
 
+about {
+    margin-top: 50%;
+}
+
 .right-alignment {
     text-align: right;
     color:  #ffbd99;
@@ -147,7 +148,7 @@ figcaption {
 
 .intro-img {
     box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.3);
-    margin-top: 20px 0;
+    margin-top: -275px;
 }
 
 .project {
@@ -163,8 +164,10 @@ figcaption {
 }
 
 .event-image {
-     width:450px;
+     width:100%;
      height: auto;
+     border-radius: 8px;
+    position: relative;
 }
 
 .Experience-list {
