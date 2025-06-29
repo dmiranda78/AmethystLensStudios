@@ -70,6 +70,8 @@ nav ul {
     margin: 0 auto;
     text-align: center;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigaton-text {
@@ -77,8 +79,7 @@ nav ul {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: bold;
-    text-transform: uppercase
-    
+    text-transform: uppercase;
 }
 
 header {
@@ -122,8 +123,9 @@ figcaption {
     color: #ffbd99;
 }
 
-about {
-    margin-top: 50%;
+.about {
+    padding: 20px 10px;
+    margin: 70px 0;
 }
 
 .right-alignment {
@@ -142,13 +144,16 @@ about {
 }
 
 .bio-list {
-    line-height: 10px;
-    margin-top: -20px;
+    line-height: 15px;
+    margin-top: 20px;
 }
 
 .intro-img {
     box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.3);
-    margin-top: -275px;
+    max-width: auto;
+    margin-top: -200px;
+    overflow: hidden;
+    position: initial; 
 }
 
 .project {
@@ -164,9 +169,9 @@ about {
 }
 
 .event-image {
-     width:100%;
-     height: auto;
-     border-radius: 8px;
+    width:100%;
+    height: auto;
+    border-radius: 8px;
     position: relative;
 }
 
