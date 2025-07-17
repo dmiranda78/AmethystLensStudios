@@ -83,12 +83,11 @@ nav ul {
 }
 
 header {
-    padding: 3% 0 0 0;
-    line-height: 150%;
+    padding: 10% 0 0 0;
     background-image: url('../Images/b29dc7.png');
     background-repeat: repeat-x;
     background-size:cover;
-    background-position-y: -185px;
+    background-position-y: -200px;
 
 
 }
@@ -148,12 +147,20 @@ figcaption {
     margin-top: 20px;
 }
 
+.logo-img {
+    max-width: 100%;
+    max-height: 50%;
+    margin-top: 100px;
+    float: left;
+}
+
 .intro-img {
     box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.3);
-    max-width: auto;
-    margin-top: -200px;
+    max-width: 100%;
+    max-height: 50%;
+    margin-top: 100px;
     overflow: hidden;
-    position: initial; 
+    position: initial;
 }
 
 .project {
