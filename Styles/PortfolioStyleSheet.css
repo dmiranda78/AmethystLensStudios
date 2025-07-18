@@ -83,7 +83,7 @@ nav ul {
 }
 
 header {
-    padding: 75px 0 0 0;
+    padding: 10% -10% 0 0;
     background-image: url('../Images/b29dc7.png');
     background-repeat: repeat-x;
     background-size:cover;
@@ -143,14 +143,13 @@ figcaption {
 
 .bio-list {
     line-height: 15px;
-    margin-top: 20px;
+    margin-top: 25%;
 }
 
 .center-left-img {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    max-width: 90%;
+    top: 10%;
+    height: 95%;
+    z-index: 1;
     
 }
 
@@ -177,7 +176,6 @@ figcaption {
 .Experience-list {
     text-align: center;
     color: black;
-
 }
 
 footer {
