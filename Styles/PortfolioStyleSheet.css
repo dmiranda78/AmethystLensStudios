@@ -3,8 +3,8 @@ body {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    color: #ffbd99;
-    background-color: #221b27;
+    color: #38323f;
+    background-color: #e6bafa;
 }
 
 h1 {
@@ -15,7 +15,8 @@ h1 {
     text-shadow: 1px 2px 30px  rgba(0, 0, 0, 0.3);
     padding: 0;
     line-height: 1;
-    color: black;
+    color: #38323f;
+
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
     text-align: center;
     text-shadow: 1px 2px 30px  rgba(0, 0, 0, 0.3);
     padding: 0;
-    color: black;
+    color: #38323f;
 }
 
 h3 {
@@ -83,12 +84,10 @@ nav ul {
 }
 
 header {
-    padding: 10% -10% 0 0;
+    padding: 0 0 0 0;
     background-image: url('../Images/b29dc7.png');
     background-repeat: repeat-x;
     background-size:cover;
-
-
 }
 
 img {
@@ -113,12 +112,12 @@ ul li {
 figcaption {
     text-align: right;
     font-size: 10px;
-    color: black;
+    color: #38323f;
 }
 .main-image {
     text-align: left;
     font-size: 10px;
-    color: #ffbd99;
+    color: #38323f;
 }
 
 .about {
@@ -128,17 +127,17 @@ figcaption {
 
 .right-alignment {
     text-align: right;
-    color:  #ffbd99;
+    color:  #38323f;
 }
 
 .project-amethystleft {
     text-align: right;
-    color: black;
+    color: #38323f;
 }
 
 .left-alignment {
     text-align: left;
-    color: black;
+    color: #38323f;
 }
 
 .bio-list {
@@ -165,7 +164,7 @@ figcaption {
 }
 
 .project-amethyst {
-    background-color: #b29dc7;
+    background-color: rgb(238, 225, 255);
     background-size: cover;
     padding: 20px 10px;
     margin: 70px 0;
@@ -174,7 +173,7 @@ figcaption {
 
 .Experience-list {
     text-align: center;
-    color: black;
+    color: #38323f;
 }
 
 footer {
