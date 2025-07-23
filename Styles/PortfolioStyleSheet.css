@@ -84,7 +84,6 @@ nav ul {
 }
 
 header {
-    padding: 0 0 0 0;
     background-image: url('../Images/b29dc7.png');
     background-repeat: repeat-x;
     background-size:cover;
@@ -147,7 +146,7 @@ figcaption {
 
 .center-left-img {
     top: 10%;
-    height: auto;
+    width: auto;
     z-index: 1;
     
 }
