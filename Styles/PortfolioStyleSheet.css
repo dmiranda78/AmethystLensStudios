@@ -182,9 +182,5 @@ footer {
 }
 
 .Gallery_Nature {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-gap: 10px;
+    
 }
