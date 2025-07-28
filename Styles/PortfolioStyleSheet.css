@@ -165,8 +165,8 @@ figcaption {
 .project-amethyst {
     background-color: rgb(238, 225, 255);
     background-size: cover;
-    padding: 20px 10px;
-    margin: 20px 0;
+    padding: 20px, 0, 10px, 0;
+    margin: 20px, 0, 0, 0;
     color: black;
 }
 
@@ -176,11 +176,11 @@ figcaption {
 }
 
 footer {
+    background-color: black;
+    background-repeat: repeat-x;
+    background-size:cover;
     text-align: center;
+    color: white;
     font-size: 10px;
-    margin: 100px;
-}
-
-.Gallery_Nature {
-    
+    margin: 0;
 }
