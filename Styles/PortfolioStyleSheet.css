@@ -175,6 +175,21 @@ figcaption {
     color: #38323f;
 }
 
+.Gallery_Nature {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.Portraits {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
 footer {
     background-color: black;
     background-repeat: repeat-x;
