@@ -1,10 +1,35 @@
+* { 
+    box-sizing: border-box; 
+    transition: all 0.125s ease 0s;
+}     
+
 body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6bafa;
+}
+
+body:before, body:after {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     color: #38323f;
-    background-color: #e6bafa;
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-end;
+    line-height: 14px;
+}
+
+body:after {
+    top: inherit;
+    bottom: 0;
+    position: relative;
+    margin-top: -12px;
+    transform: translateX(-100%);
+    margin-left: 90px;
+    width: 150px;
 }
 
 h1 {
@@ -91,11 +116,8 @@ header {
 
 img {
     /*this is limiting the width of the image taking 100% width of the parent*/
-    max-width: auto;
-    height: 400px;
-    overflow: hidden;
+    width: 100%;
     border-radius: 8px;
-    position: relative;
 }
 
 body, ul {
@@ -148,7 +170,6 @@ figcaption {
     top: 10%;
     width: 75%;
     z-index: 1;
-    
 }
 
 .intro-img {
@@ -173,23 +194,55 @@ figcaption {
 .Experience-list {
     text-align: center;
     color: #38323f;
+}       
+
+.Gallery {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
-.Gallery_Nature {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+.column {
+    flex: 25%;
+    padding: 5px;
+ 
 }
 
-.Portraits {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+.column img {
+    margin-top: 5px;
+    cursor: pointer;
 }
+
+.column img {
+    margin-top: 5px;
+    cursor: pointer;
+}
+ 
+.column img:active {
+    height: auto; 
+    width: auto;
+    max-width: 80%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border: 10px solid #fff;
+    margin: 0px;
+    box-shadow: 0 0 1000px 1000px #fff8;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .column {
+    flex: 100%;
+  }
+}
+
 footer {
     background-color: black;
     background-repeat: repeat-x;
