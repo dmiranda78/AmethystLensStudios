@@ -68,6 +68,8 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 a {
@@ -109,9 +111,14 @@ nav ul {
 }
 
 header {
-    background-image: url('../Images/b29dc7.png');
-    background-repeat: repeat-x;
-    background-size:cover;
+    background-image: url('../Images/Logos/Long\ Transparent\ Crop.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 10px 90px;
+    height: 425px;
+    margin: 0 0 25px 0;
+    padding: 50px 100px;
+    display: flex;
 }
 
 img {
