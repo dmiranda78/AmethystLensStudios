@@ -232,7 +232,7 @@ figcaption {
     position: fixed;
     left: 50%;
     top: 50%;
-    border: 10px solid #fff;
+    border: 10px solid #e6bafa;
     margin: 0px;
     box-shadow: 0 0 1000px 1000px #fff8;
     transform: translateX(-50%) translateY(-50%);
