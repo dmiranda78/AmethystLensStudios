@@ -83,6 +83,7 @@ p {
 .logo {
     float: left;
     margin: 15px;
+    width: 30%;
 }
 
 nav ul li {
