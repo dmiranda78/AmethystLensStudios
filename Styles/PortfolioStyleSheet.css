@@ -68,7 +68,7 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
     display: flex;
     align-items: flex-end;
 }
@@ -167,6 +167,7 @@ figcaption {
 .project-amethystleft {
     text-align: right;
     color: #38323f;
+    margin: 70px 0;
 }
 
 .left-alignment {
@@ -207,6 +208,8 @@ figcaption {
 .Experience-list {
     text-align: center;
     color: #38323f;
+    margin: 10px, 10px;
+    padding: 20px, 20px;
 }       
 
 .Gallery_Nature{
