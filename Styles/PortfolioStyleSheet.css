@@ -83,7 +83,8 @@ p {
 
 .logo {
     margin: 0 0 0 0;
-    width: 65%;
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: flex-end;
 }
