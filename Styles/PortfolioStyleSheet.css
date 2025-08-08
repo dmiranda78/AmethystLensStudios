@@ -121,6 +121,7 @@ nav ul {
 }
 
 header {
+    overflow: visible;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10px 30px;
