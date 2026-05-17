@@ -484,3 +484,23 @@ footer a:hover {
         contrast(1.15)
         saturate(1);
 }
+
+.Gallery_Nature {
+    padding: 5rem 1rem;
+    background: var(--black);
+}
+
+.Gallery_Nature .row {
+    row-gap: 2rem;
+}
+
+.Gallery_Nature .col-12 {
+    padding: 1rem;
+}
+
+.Gallery_Images {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
