@@ -191,6 +191,10 @@ header {
     }
 }
 
+.portfolio-column {
+    padding: 1.5rem;
+}
+
 /* ================================
    Typography
 ================================ */
@@ -305,10 +309,6 @@ section {
 
 .row {
     align-items: center;
-}
-
-.col-sm {
-    padding: 1.5rem;
 }
 
 figure {
