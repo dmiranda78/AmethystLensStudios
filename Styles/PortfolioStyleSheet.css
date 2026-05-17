@@ -485,17 +485,9 @@ footer a:hover {
         saturate(1);
 }
 
-.Gallery_Nature {
-    padding: 5rem 1rem;
-    background: var(--black);
-}
-
-.Gallery_Nature .row {
-    row-gap: 2rem;
-}
-
-.Gallery_Nature .col-12 {
-    padding: 1rem;
+.Gallery_Nature figure,
+.Gallery_Nature img {
+    max-width: 100%;
 }
 
 .Gallery_Images {
@@ -503,4 +495,5 @@ footer a:hover {
     height: 420px;
     object-fit: cover;
     display: block;
+    position: relative;
 }
