@@ -418,8 +418,8 @@ footer a:hover {
         padding: 4rem 1rem;
     }
 
-    .col-sm {
-        padding: 1rem 0;
+    .portfolio-column {
+    padding: 1.5rem;
     }
 
     h1 {
