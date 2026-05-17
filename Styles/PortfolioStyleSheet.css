@@ -706,3 +706,49 @@ footer a:hover {
 .shop-description {
     text-align: center;
 }
+
+/* ================================
+   Responsive Masonry Gallery
+================================ */
+
+.Gallery_Nature .row {
+    display: block;
+    column-count: 3;
+    column-gap: 1.5rem;
+}
+
+.Gallery_Nature .col-12 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    break-inside: avoid;
+}
+
+.Gallery_Images {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+    filter: brightness(0.9) contrast(1.08) saturate(0.92);
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.Gallery_Images:hover {
+    transform: scale(1.015);
+    filter: brightness(1) contrast(1.14) saturate(1);
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .Gallery_Nature .row {
+        column-count: 2;
+    }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+    .Gallery_Nature .row {
+        column-count: 1;
+    }
+}
