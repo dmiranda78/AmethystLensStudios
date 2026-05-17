@@ -554,3 +554,34 @@ footer a:hover {
         height: auto;
     }
 }
+
+/* ================================
+   Gallery Mobile Polish 
+================================ */
+
+.Gallery_Images {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    filter:
+        brightness(0.9)
+        contrast(1.05)
+        saturate(0.92);
+
+    transition:
+        transform 0.45s ease,
+        filter 0.45s ease;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.35);
+}
+
+.Gallery_Images:hover {
+    transform: scale(1.01);
+
+    filter:
+        brightness(1)
+        contrast(1.12)
+        saturate(1);
+}
